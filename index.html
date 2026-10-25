@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Usha Sagar's portfolio showcasing frontend development skills and web projects.">
+    <title>Usha Sagar | Frontend Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="navbar">
+        <a href="#home" class="logo">usha<span>.</span>dev</a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle"
+                aria-label="Switch colour theme">🌙</button>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Aspiring Frontend Developer
+                </div>
+
+                <p class="eyebrow">HELLO, WORLD! I'M</p>
+
+                <h1>Usha Sagar<span class="pink-text">.</span></h1>
+
+                <h2>I build <span id="typingText">beautiful websites</span><span class="typing-cursor">|</span></h2>
+
+                <p class="hero-description">
+                    A BCA graduate passionate about creating responsive,
+                    interactive and user-friendly web experiences.
+                    Turning ideas into websites, one line of code at a time.
+                </p>
+
+                <div class="hero-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Bootstrap</span>
+                    <span>Tailwind CSS</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+                    <a href="Resume_Usha.pdf" download class="btn btn-outline">Download Resume ↓</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Usha7774"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <span>•</span>
+                    <a href="https://www.linkedin.com/in/usha-sagar-00b151294"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="code-card">
+                <div class="code-header">
+                    <div class="window-dots"><i></i><i></i><i></i></div>
+                    <span>developer.js</span>
+                    <span class="code-symbol">{ }</span>
+                </div>
+
+                <div class="code-body">
+                    <p><span class="line-number">01</span> <span class="code-purple">const</span> developer = {</p>
+                    <p><span class="line-number">02</span> &nbsp; name: <span class="code-green">'Usha Sagar'</span>,</p>
+                    <p><span class="line-number">03</span> &nbsp; role: <span class="code-green">'Frontend Developer'</span>,</p>
+                    <p><span class="line-number">04</span> &nbsp; skills: [</p>
+                    <p><span class="line-number">05</span> &nbsp;&nbsp; <span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>,</p>
+                    <p><span class="line-number">06</span> &nbsp;&nbsp; <span class="code-green">'JavaScript'</span>, <span class="code-green">'React'</span></p>
+                    <p><span class="line-number">07</span> &nbsp; ],</p>
+                    <p><span class="line-number">08</span> &nbsp; creative: <span class="code-orange">true</span>,</p>
+                    <p><span class="line-number">09</span> &nbsp; learning: <span class="code-orange">true</span></p>
+                    <p><span class="line-number">10</span> };</p>
+                    <p class="code-comment">// Always building something better ✨</p>
+                </div>
+
+                <div class="code-footer">
+                    <span><span class="status-dot"></span> Ready to create</span>
+                    <span>UTF-8 · JavaScript</span>
+                </div>
+
+                <div class="floating-badge badge-top">✦ Creative thinking</div>
+                <div class="floating-badge badge-bottom">♡ Made with passion</div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">SCROLL TO EXPLORE ↓</a>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Code with purpose.<br><span class="pink-text">Create with passion.</span></h2>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">✿</div>
+                <div>
+                    <h3>Hey there! 👋</h3>
+                    <p>
+                        I'm Usha, a BCA graduate and aspiring Frontend Developer.
+                        I enjoy learning web technologies and transforming ideas
+                        into clean, accessible and responsive websites.
+                    </p>
+                    <p>
+                        I'm continuously improving my coding skills by building
+                        projects and exploring new ways to create better user experiences.
+                    </p>
+                    <div class="about-highlights">
+                        <span>🎓 BCA Graduate</span>
+                        <span>💻 Project-Based Learning</span>
+                        <span>🌱 Always Learning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">MY TOOLKIT</p>
+                <h2>Technologies I <span class="pink-text">work with.</span></h2>
+                <p>Tools and technologies I'm learning and using to build web experiences.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon html-icon">5</span>
+                    <h3>HTML5</h3>
+                    <p>Semantic structure</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon css-icon">✿</span>
+                    <h3>CSS3</h3>
+                    <p>Styling & responsive layouts</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon js-icon">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactive experiences</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon react-icon">⚛</span>
+                    <h3>React</h3>
+                    <p>Component-based UI</p>
+                </article>
+                <article class="skill-card">
+                <span class="skill-icon" style="font-size: 1rem;">Tw</span>
+                <h3>Tailwind CSS</h3>
+                <p>Utility-first styling</p>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon" style="font-size: 1rem;">B</span>
+                <h3>Bootstrap</h3>
+                <p>Responsive UI components</p>
+            </article>
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">SELECTED WORK</p>
+                <h2>Things I've <span class="pink-text">built.</span></h2>
+                <p>A few projects that showcase my learning and creativity.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-preview farmer-preview">
+                        <span class="preview-label">01 / WEB PROJECT</span>
+                        <div class="preview-art">🌾</div>
+                        <h3>Smart Farmer</h3>
+                        <p>Technology for everyday farming</p>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-number">PROJECT 01</div>
+                        <h3>Smart Farmer Website</h3>
+                        <p>A farming-focused website concept featuring useful information and a farmer-friendly interface.</p>
+                        <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <div class="project-links">
+                            <a href="#" class="https://steady-valkyrie-fbb274.netlify.app" data-project="farmer">Live Demo ↗</a>
+                            <a href="https://github.com/Usha7774" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview photo-preview">
+                        <span class="preview-label">02 / CREATIVE PROJECT</span>
+                        <div class="preview-art">📸</div>
+                        <h3>Moments in Focus</h3>
+                        <p>A portfolio for visual storytelling</p>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-number">PROJECT 02</div>
+                        <h3>Photography Portfolio</h3>
+                        <p>A photography portfolio concept with category filters and photography service packages.</p>
+                        <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <div class="project-links">
+                            <a href="https://luminous-khapse-8254fd.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                            <a href="https://github.com/Usha7774" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview portfolio-preview">
+                        <span class="preview-label">03 / CURRENT PROJECT</span>
+                        <div class="preview-art">💗</div>
+                        <h3>usha.dev</h3>
+                        <p>Designed and developed with HTML, CSS & JS</p>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-number">PROJECT 03</div>
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive developer portfolio with animated elements, interactive components and theme switching.</p>
+                        <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <div class="project-links">
+                            <a href="#home">Preview Page ↗</a>
+                            <a href="https://github.com/Usha7774" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="contact-card">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Have a project in <span class="pink-text">mind?</span></h2>
+                <p>I'm interested in frontend development opportunities and projects that help me grow.</p>
+
+                <form id="contactForm">
+                    <div class="form-row">
+                        <label>
+                            Your Name
+                            <input type="text" id="contactName" placeholder="Enter your name" required>
+                        </label>
+                        <label>
+                            Your Email
+                            <input type="email" id="contactEmail" placeholder="you@example.com" required>
+                        </label>
+                    </div>
+                    <label>
+                        Your Message
+                        <textarea id="contactMessage" rows="4" placeholder="Let's build something great..." required></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-primary">Send Message ↗</button>
+                    <p id="formMessage" class="form-message" aria-live="polite"></p>
+                </form>
+
+                <div class="contact-socials">
+                    <a href="https://github.com/Usha7774" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">usha<span>.</span>dev</a>
+        <p>Designed & built with ♡ by Usha Sagar</p>
+        <p>© <span id="year"></span> · Keep learning. Keep building.</p>
+    </footer>
+</body>
+</html>
